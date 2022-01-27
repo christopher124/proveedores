@@ -1,5 +1,4 @@
----
 deployment:
 tasks:
   - export DEPLOYPATH=/home3/creditog/portalproveedoresmx.com/
-    - /bin/rsync -av dist/lista-negra/ $DEPLOYPATH
+  - /bin/rsync -av dist/lista-negra/ $DEPLOYPATH
